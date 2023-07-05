@@ -47,6 +47,7 @@ export default function parser(str: string) {
             text: curr,
         });
     }
+    console.log(data);
     return data;
 }
 
